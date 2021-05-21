@@ -1,3 +1,4 @@
+package Controller;
 
 public class Endereco {
 
@@ -10,7 +11,10 @@ public class Endereco {
     private String cidade;
     private String estado;
 
-    // Construtor
+    // Construtores
+    public Endereco() {
+    }
+
     public Endereco(String logradouro, String numero, String bairro, String cep, String complemento, String cidade, String estado) {
         this.logradouro = logradouro;
         this.numero = numero;
@@ -77,5 +81,4 @@ public class Endereco {
     public void setEstado(String estado) {
         this.estado = estado;
     }
-
 }
